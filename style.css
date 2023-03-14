@@ -107,3 +107,22 @@ footer a:hover {
   color: #cccccc;
   text-decoration: none;
 }
+
+
+     .center {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* set width and height */
+        width: 400px;
+        height: 300px;
+        /* set margin */
+        margin: 20% auto;
+        /* add some styling */
+        background-color: lightblue;
+        border: 2px solid navy;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
